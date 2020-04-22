@@ -1,5 +1,5 @@
 # apache-superset
-![based on superset 0.28, several updates and customized echart visualization.
+based on superset 0.28, several updates and customized echart visualization.
 
 1. add echat stack bar line chart
         echart mixed line bar chart
@@ -11,15 +11,19 @@
 优化时间筛选器应用逻辑，缩短看板刷新时间（时间筛选器仅应用于当前页,而不是整个，而不是整个看板）
 刷新时间控制在3秒以内。
 
-3. apply metrics on both left and right Y axis.
+3. apply multiple metrics on both left and right Y axis.
 双坐标Y轴情况下，都可选取多个metric指标。
 
-4. add tooltip type for pie chart. 
+4. add tooltip types. 
 图例模式修改。
 
 5. windows deployment.
-]
+
+6. python scripts for revising chart label.
+
 ![image](https://github.com/wuxuedaifu/apache-superset/blob/master/1.PNG)
+
+
 ![image](https://github.com/wuxuedaifu/apache-superset/blob/master/2.PNG)
 
 
