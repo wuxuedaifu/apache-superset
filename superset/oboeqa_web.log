@@ -1,0 +1,723 @@
+2020-04-12 16:45:11.111451: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2020-04-12 16:45:11.113448: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+2020-04-12 16:45:11.115453: Running on_exit tasks
+2020-04-12 16:45:11.117504: wfastcgi.py 3.0.0 closed
+2020-04-12 16:45:11.506446: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2020-04-12 16:45:11.508459: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+2020-04-12 16:45:11.510452: Running on_exit tasks
+2020-04-12 16:45:11.512459: wfastcgi.py 3.0.0 closed
+2020-04-12 17:08:57.649942: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:08:57.651906: Running on_exit tasks
+2020-04-12 17:08:57.653904: wfastcgi.py 3.0.0 closed
+2020-04-12 17:09:02.385905: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:09:02.388939: Running on_exit tasks
+2020-04-12 17:09:02.389943: wfastcgi.py 3.0.0 closed
+2020-04-12 17:09:49.250649: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:09:49.252615: Running on_exit tasks
+2020-04-12 17:09:49.254612: wfastcgi.py 3.0.0 closed
+2020-04-12 17:09:53.605011: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:09:53.606980: Running on_exit tasks
+2020-04-12 17:09:53.607973: wfastcgi.py 3.0.0 closed
+2020-04-12 17:09:55.920008: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:09:55.920974: Running on_exit tasks
+2020-04-12 17:09:55.923008: wfastcgi.py 3.0.0 closed
+2020-04-12 17:10:00.089217: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:10:00.093214: Running on_exit tasks
+2020-04-12 17:10:00.094214: wfastcgi.py 3.0.0 closed
+2020-04-12 17:11:43.887802: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:11:43.889803: Running on_exit tasks
+2020-04-12 17:11:43.891803: wfastcgi.py 3.0.0 closed
+2020-04-12 17:11:48.460801: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:11:48.462799: Running on_exit tasks
+2020-04-12 17:11:48.464800: wfastcgi.py 3.0.0 closed
+2020-04-12 17:11:56.417821: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:11:56.418802: Running on_exit tasks
+2020-04-12 17:11:56.420838: wfastcgi.py 3.0.0 closed
+2020-04-12 17:12:33.772740: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:12:33.772740: Running on_exit tasks
+2020-04-12 17:12:33.772740: wfastcgi.py 3.0.0 closed
+2020-04-12 17:13:24.933418: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+
+
+StdOut: 
+
+StdErr: 
+2020-04-12 17:13:24.933418: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run" could not be imported
+2020-04-12 17:13:24.933418: Running on_exit tasks
+2020-04-12 17:13:24.933418: wfastcgi.py 3.0.0 closed
+2020-04-12 17:14:00.229340: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:14:00.229340: Running on_exit tasks
+2020-04-12 17:14:00.229340: wfastcgi.py 3.0.0 closed
+2020-04-12 17:14:07.218437: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 616, in get_wsgi_handler
+    raise ValueError('"%s" could not be imported%s' % (handler_name, last_tb))
+ValueError: "run.app" could not be imported: Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 337, in dbapi
+    from sqlite3 import dbapi2 as sqlite  # try 2.5+ stdlib name.
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\__init__.py", line 23, in <module>
+    from sqlite3.dbapi2 import *
+  File "C:\Users\wuxue\AppData\Local\conda\conda\envs\tensorflowgpu\Lib\sqlite3\dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ImportError: DLL load failed: 找不到指定的模块。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 600, in get_wsgi_handler
+    handler = __import__(module_name, fromlist=[name_list[0][0]])
+  File ".\run.py", line 1, in <module>
+    from superset import app
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\__init__.py", line 112, in <module>
+    utils.pessimistic_connection_handling(db.engine)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\flask_sqlalchemy\__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\__init__.py", line 419, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\engine\strategies.py", line 80, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 339, in dbapi
+    raise e
+  File "D:\Users\virtualenv\tonglingBI\lib\site-packages\sqlalchemy\dialects\sqlite\pysqlite.py", line 334, in dbapi
+    from pysqlite2 import dbapi2 as sqlite
+ModuleNotFoundError: No module named 'pysqlite2'
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\Users\virtualenv\tonglingBI\Lib\site-packages\superset-0.999.0.dev0-py3.6.egg\superset\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1273-1281: ordinal not in range(256)
+2020-04-12 17:14:07.218437: Running on_exit tasks
+2020-04-12 17:14:07.218437: wfastcgi.py 3.0.0 closed

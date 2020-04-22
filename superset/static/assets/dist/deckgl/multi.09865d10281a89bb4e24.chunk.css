@@ -1,0 +1,47 @@
+.play-slider {
+    position: absolute;
+    bottom: -16px;
+    height: 20px;
+    width: 100%;
+}
+
+.slider-selection {
+    background: #efefef;
+}
+
+.slider-handle {
+    background: #b3b3b3;
+}
+
+.slider.slider-horizontal {
+    width: 100% !important;
+}
+
+.slider-button {
+    color: #b3b3b3;
+    margin-right: 5px;
+}
+
+div.legend {
+    font-size: 90%;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    margin: 24px;
+    padding: 12px 24px;
+    outline: none;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+ul.categories {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul.categories li a {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+

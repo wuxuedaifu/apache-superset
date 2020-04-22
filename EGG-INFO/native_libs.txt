@@ -1,0 +1,2 @@
+superset/static/assets/py36funnel/Scripts/python3.dll
+superset/static/assets/py36funnel/Scripts/python36.dll
