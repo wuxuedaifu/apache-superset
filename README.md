@@ -45,6 +45,8 @@ Superset Dashboard 定义及使用（隐藏菜单栏）
 https://blog.csdn.net/f4761/article/details/83000995
 https://blog.csdn.net/l_lushuang/article/details/90716862
 
+Time filter筛选器问题
+https://github.com/apache/incubator-superset/issues/665
 
 Superset去掉login
 https://github.com/apache/incubator-superset/issues/450
