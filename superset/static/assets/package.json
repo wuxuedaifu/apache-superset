@@ -63,7 +63,7 @@
     "deck.gl": "^5.1.4",
     "distributions": "^1.0.0",
     "dnd-core": "^2.6.0",
-    "dompurify": "^1.0.3",
+    "dompurify": "^2.0.17",
     "echarts": "^4.7.0",
     "echarts-gl": "^1.1.1",
     "fastdom": "^1.0.6",
