@@ -153,7 +153,7 @@
     "eslint-plugin-react": "^7.0.1",
     "exports-loader": "^0.7.0",
     "file-loader": "^1.1.11",
-    "github-changes": "^1.0.4",
+    "github-changes": "^2.0.3",
     "ignore-styles": "^5.0.1",
     "imports-loader": "^0.7.1",
     "istanbul": "^1.0.0-alpha",
